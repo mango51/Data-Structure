@@ -2,7 +2,9 @@
 #include <string.h>
 #include <stdlib.h> // system 함수 사용할 때 필요한 라이브러리
 
-typedef int element;
+//헤더에 사용할 함수 미리 선언해두기 (언제나 다른 파일에서 가져가서 함수 내용 수정해서 사용 가능)
+
+typedef int element; //element 자료형 선언
 int score;
 element score; // int score와 동일함
 
@@ -11,5 +13,3 @@ element func_st_pop();
 void func_st_del();
 element func_st_peek();
 void func_st_print();
-
-// 라이브러리, 함수 및 변수 선언하는 부분 (헤더 파일) ***
