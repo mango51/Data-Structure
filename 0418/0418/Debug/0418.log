@@ -1,0 +1,41 @@
+﻿빌드 시작: 2021-04-18 오후 12:32:25
+     1>2 노드의 "D:\Sampark\04_자료구조\Project\0418\0418\0418.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Debug\0418.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\0418.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt bubble_sort.c main.c quick_sort.c select_sort.c
+         select_sort.c
+         quick_sort.c
+         main.c
+     1>d:\sampark\04_자료구조\project\0418\0418\main.c(10): warning C4244: '함수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         bubble_sort.c
+         코드를 생성하고 있습니다...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\0418.exe.embed.manifest.res" Debug\0418_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sampark\04_자료구조\Project\0418\Debug\0418.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\0418.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sampark\04_자료구조\Project\0418\Debug\0418.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sampark\04_자료구조\Project\0418\Debug\0418.lib" /MACHINE:X86 Debug\0418.exe.embed.manifest.res
+         Debug\bubble_sort.obj
+         Debug\main.obj
+         Debug\quick_sort.obj
+         Debug\select_sort.obj
+       Manifest:
+         "Debug\0418.exe.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\0418.exe.embed.manifest" /manifest Debug\0418.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\0418.exe.embed.manifest.res" Debug\0418_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sampark\04_자료구조\Project\0418\Debug\0418.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\0418.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sampark\04_자료구조\Project\0418\Debug\0418.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sampark\04_자료구조\Project\0418\Debug\0418.lib" /MACHINE:X86 Debug\0418.exe.embed.manifest.res
+         Debug\bubble_sort.obj
+         Debug\main.obj
+         Debug\quick_sort.obj
+         Debug\select_sort.obj
+         0418.vcxproj -> D:\Sampark\04_자료구조\Project\0418\Debug\0418.exe
+       FinalizeBuildStatus:
+         "Debug\0418.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\0418.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Sampark\04_자료구조\Project\0418\0418\0418.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.94
